@@ -1,0 +1,165 @@
+@import url(https://use.fontawesome.com/releases/v6.4.2/css/all.css);
+
+@font-face {
+  font-family: inter;
+  src: url(/src/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf)
+    format("truetype");
+  font-size: small;
+}
+div.top-header {
+  background-color: rgba(91, 206, 245, 0.992);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  row-gap: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+}
+div.top-header img {
+  width: 150px;
+  height: 150px;
+}
+div.top-header a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+div.top-header a:hover {
+  cursor: pointer;
+}
+div.top-header div.navigation {
+  gap: 20px;
+}
+div.bottom-header {
+  height: 70px;
+  background-color: rgba(91, 206, 245, 0.992);
+  display: flex;
+  justify-content: space-between;
+}
+div.bottom-header div.donate {
+  display: flex;
+  align-items: center;
+  background-color: brown;
+  border-radius: 10px;
+  margin: 10px 70px;
+  text-align: center;
+  padding: 10px 10px;
+  height: 20px;
+}
+div.bottom-header div.donate svg.donate-icon {
+  width: 50px;
+  height: 40px;
+}
+div.bottom-header div.contactMedia {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+div.bottom-header div.contactMedia a {
+  width: 50px;
+  height: 40px;
+}
+div.bottom-header div.contactMedia a.facebook {
+  color: #3b5998;
+}
+div.bottom-header div.contactMedia a.instagram {
+  color: #e1306c;
+}
+div.bottom-header div.contactMedia a.tiktok {
+  color: #333;
+}
+div.bottom-header div.contactMedia a.linked-in {
+  color: #1da1f2;
+}
+div.bottom-header div.contactMedia a.twitter {
+  color: #0072b1;
+}
+
+div.intro {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffec9e;
+  padding: 20px 30px;
+}
+div.intro p.welcome-message {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding: 10px 20px;
+  line-height: 2em;
+  font-family: "inter";
+
+  width: 50%;
+  border-top: 1px solid rgba(0, 0, 0, 0.6);
+  border-left: 1px solid rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 3px 2px 1px rgba(0, 0, 0, 0.6);
+}
+div.intro div.intro-speaker {
+  text-align: center;
+}
+div.intro div.intro-speaker img.orji {
+  width: 90%;
+  margin: 20px 5px;
+  border-radius: 30%;
+  height: 650px;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+}
+div.footer-regards {
+  display: flex;
+  width: 33%;
+  padding: 4px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+div.footer-regards img {
+  width: 150px;
+  height: 150px;
+}
+div.footer-navigation {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px;
+  width: 33%;
+  text-align: center;
+}
+div.footer-navigation a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+}
+footer div.contactMedia {
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  width: 33%;
+}
+footer div.contactMedia a {
+  width: 50px;
+  height: 40px;
+}
+
+footer div.contactMedia a.facebook {
+  color: #3b5998;
+}
+footer div.contactMedia a.instagram {
+  color: #e1306c;
+}
+footer div.contactMedia a.tiktok {
+  color: #333;
+}
+footer div.contactMedia a.linked-in {
+  color: #1da1f2;
+}
+footer div.contactMedia a.twitter {
+  color: #0072b1;
+}
