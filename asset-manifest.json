@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ututuenyi/static/css/main.83299430.css",
+    "main.js": "/ututuenyi/static/js/main.c4745e54.js",
+    "static/js/787.4597491d.chunk.js": "/ututuenyi/static/js/787.4597491d.chunk.js",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/ututuenyi/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
+    "static/media/logo.png": "/ututuenyi/static/media/logo.3236e16f58a40492d794.png",
+    "static/media/orji.jpeg": "/ututuenyi/static/media/orji.d03c12825b28cdeaaa06.jpeg",
+    "index.html": "/ututuenyi/index.html",
+    "main.83299430.css.map": "/ututuenyi/static/css/main.83299430.css.map",
+    "main.c4745e54.js.map": "/ututuenyi/static/js/main.c4745e54.js.map",
+    "787.4597491d.chunk.js.map": "/ututuenyi/static/js/787.4597491d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83299430.css",
+    "static/js/main.c4745e54.js"
+  ]
+}
