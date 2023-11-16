@@ -1,18 +1,27 @@
 {
   "files": {
-    "main.css": "/ututuenyi/static/css/main.83299430.css",
-    "main.js": "/ututuenyi/static/js/main.c4745e54.js",
-    "static/js/787.4597491d.chunk.js": "/ututuenyi/static/js/787.4597491d.chunk.js",
-    "static/media/Inter-VariableFont_slnt,wght.ttf": "/ututuenyi/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
-    "static/media/logo.png": "/ututuenyi/static/media/logo.3236e16f58a40492d794.png",
-    "static/media/orji.jpeg": "/ututuenyi/static/media/orji.d03c12825b28cdeaaa06.jpeg",
-    "index.html": "/ututuenyi/index.html",
-    "main.83299430.css.map": "/ututuenyi/static/css/main.83299430.css.map",
-    "main.c4745e54.js.map": "/ututuenyi/static/js/main.c4745e54.js.map",
-    "787.4597491d.chunk.js.map": "/ututuenyi/static/js/787.4597491d.chunk.js.map"
+    "main.css": "/static/css/main.0da3e918.css",
+    "main.js": "/static/js/main.bf02cf54.js",
+    "static/js/787.4597491d.chunk.js": "/static/js/787.4597491d.chunk.js",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
+    "static/media/Mrs Nnenna David Antwi (AKA. Nelly Onyeike).jpeg": "/static/media/Mrs Nnenna David Antwi (AKA. Nelly Onyeike).c960ea3ed57bf505d13c.jpeg",
+    "static/media/MR OKEKE UGWA OMEBE.jpeg": "/static/media/MR OKEKE UGWA OMEBE.ded78c2a332507ac24e0.jpeg",
+    "static/media/logo.png": "/static/media/logo.3236e16f58a40492d794.png",
+    "static/media/friendship.jpg": "/static/media/friendship.c6addb13efb2e69a0e84.jpg",
+    "static/media/MR. NGOYE ORJI KALU (NMEMME ATUEGWU).jpeg": "/static/media/MR. NGOYE ORJI KALU (NMEMME ATUEGWU).d03c12825b28cdeaaa06.jpeg",
+    "static/media/ORJI.jpeg": "/static/media/ORJI.4d96e03ba2c9826c09e5.jpeg",
+    "static/media/HRH.EZE ODEGHE KALU ODEGHE (EZE IKEKWEGHI IMERI).jpeg": "/static/media/HRH.EZE ODEGHE KALU ODEGHE (EZE IKEKWEGHI IMERI).2fb57e272ac1579553be.jpeg",
+    "static/media/Madam Easter Ogba Okechukwu.jpeg": "/static/media/Madam Easter Ogba Okechukwu.834a3518f55ed188b06b.jpeg",
+    "static/media/MR BARRATTS E ANYA.jpeg": "/static/media/MR BARRATTS E ANYA.1c58ab5aff3a60dbb4e8.jpeg",
+    "static/media/HON. ANYA EBIRI ANYA.jpeg": "/static/media/HON. ANYA EBIRI ANYA.d76965b51dd3773b1e8c.jpeg",
+    "static/media/MR unknown.jpeg": "/static/media/MR unknown.2c89d6a35c8932e87b71.jpeg",
+    "index.html": "/index.html",
+    "main.0da3e918.css.map": "/static/css/main.0da3e918.css.map",
+    "main.bf02cf54.js.map": "/static/js/main.bf02cf54.js.map",
+    "787.4597491d.chunk.js.map": "/static/js/787.4597491d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83299430.css",
-    "static/js/main.c4745e54.js"
+    "static/css/main.0da3e918.css",
+    "static/js/main.bf02cf54.js"
   ]
 }
