@@ -2,79 +2,96 @@
 
 @font-face {
   font-family: inter;
-  src: url(/src/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf)
-    format("truetype");
+  src: url(/src/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
   font-size: small;
 }
+
 div.top-header {
   background-color: rgba(91, 206, 245, 0.992);
   color: black;
   display: flex;
   flex-direction: column;
-  height: 220px;
+  height: 180px;
   row-gap: 10px;
   text-align: center;
   justify-content: center;
   align-items: center;
   margin-bottom: 3px;
 }
+
 div.top-header img {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
 }
+
 div.top-header a {
   text-decoration: none;
   color: black;
   font-weight: 500;
   padding: 10px 20px;
 }
+
 div.top-header a:hover {
   cursor: pointer;
 }
+
 div.top-header div.navigation {
   gap: 20px;
 }
+
 div.bottom-header {
   height: 70px;
   background-color: rgba(91, 206, 245, 0.992);
   display: flex;
   justify-content: space-between;
 }
+
 div.bottom-header div.donate {
   display: flex;
   align-items: center;
   background-color: brown;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 10px 70px;
-  text-align: center;
   padding: 10px 10px;
   height: 20px;
+  font-size: small;
+  justify-content: center;
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
 }
+
 div.bottom-header div.donate svg.donate-icon {
-  width: 50px;
+  width: 20px;
   height: 40px;
 }
+
 div.bottom-header div.contactMedia {
   display: flex;
   align-items: center;
   margin-right: 20px;
 }
+
 div.bottom-header div.contactMedia a {
   width: 50px;
   height: 40px;
 }
+
 div.bottom-header div.contactMedia a.facebook {
   color: #3b5998;
 }
+
 div.bottom-header div.contactMedia a.instagram {
   color: #e1306c;
 }
+
 div.bottom-header div.contactMedia a.tiktok {
   color: #333;
 }
+
 div.bottom-header div.contactMedia a.linked-in {
   color: #1da1f2;
 }
+
 div.bottom-header div.contactMedia a.twitter {
   color: #0072b1;
 }
@@ -82,9 +99,10 @@ div.bottom-header div.contactMedia a.twitter {
 div.intro {
   display: flex;
   justify-content: space-evenly;
-  background-color: #ffec9e;
+  background-color: #f2f2f2;
   padding: 20px 30px;
 }
+
 div.intro p.welcome-message {
   display: flex;
   align-self: center;
@@ -98,9 +116,11 @@ div.intro p.welcome-message {
   border-left: 1px solid rgba(0, 0, 0, 0.6);
   box-shadow: 5px 3px 2px 1px rgba(0, 0, 0, 0.6);
 }
+
 div.intro div.intro-speaker {
   text-align: center;
 }
+
 div.intro div.intro-speaker img.orji {
   width: 90%;
   margin: 20px 5px;
@@ -108,41 +128,369 @@ div.intro div.intro-speaker img.orji {
   height: 650px;
 }
 
-footer {
-  display: flex;
-  background-color: black;
+div.after-intro {
+  padding: 30px 30px;
+
 }
-div.footer-regards {
+
+div.after-intro img.group-pic {
+  height: 500px;
+  width: 100%;
+}
+
+section.about {
+  margin: 0px;
+  padding: 50px 0px;
+  box-sizing: border-box;
+  font-family: "inter";
+  background-color: #f2f2f2;
+
+}
+
+section.about div.heading {
+  width: 90%;
   display: flex;
-  width: 33%;
-  padding: 4px 10px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+
+section.about div.heading h1 {
+  font-size: 50px;
+  color: #000;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+section.about div.heading h1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  display: block;
+  margin: 0 auto;
+  background-color: #4caf50;
+}
+
+section.about div.heading p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 35px;
+}
+
+section.about div.about-body {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section.about div.about-body div.about-image {
+  flex: 1;
+  margin-right: 40px;
+  overflow: hidden;
+
+}
+
+section.about div.about-body div.about-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: 0.5s ease;
+}
+
+section.about div.about-body div.about-image:hover img {
+  transform: scale(1.2);
+}
+
+section.about div.about-body div.about-content {
+
+  flex: 1;
+}
+
+section.about div.about-body div.about-content h2 {
+  font-size: 23px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+section.about div.about-body div.about-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+
+section.about div.about-body div.about-content .read-more {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4caf50;
+  font-size: 19px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 15px;
+  transition: 0.3 ease;
+}
+
+section.about div.about-body div.about-content .read-more:hover {
+  background-color: #3e8e41;
+}
+
+@media screen and (max-width: 768px) {
+  section.about div.heading {
+    padding: 0px 20px;
+  }
+
+  section.about div.heading h1 {
+    font-size: 36px;
+  }
+
+  section.about div.heading p {
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+
+  section.about div.about-body {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  section.about div.about-body div.about-image {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .section.about div.about-body div.about-content {
+    padding: 0px;
+    font-size: 16px;
+  }
+
+  section.about div.about-body div.about-content .read-more {
+    font-size: 16px;
+  }
+}
+
+
+
+div.members-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 80px 50px;
+}
+
+div.members-image-div {
+  margin: 10px 30px;
+  width: 230px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+
+
+}
+
+div.members-image-div img {
+  width: 230px;
+  /* Set a width for your images */
+  height: 400px;
+  /* Add other styling properties for images */
+}
+
+div.members-image-div p {
+  font-family: "inter";
+  font-size: medium;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+
+section.contactus {
+  margin: 0px;
+  padding: 50px 0px;
+  box-sizing: border-box;
+
+  background-color: #f2f2f2;
+
+}
+
+section.contactus div.heading {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+
+section.contactus div.heading h1 {
+  font-size: 50px;
+  color: #000;
+  margin-bottom: 25px;
+  position: relative;
+  font-family: "inter";
+}
+
+section.contactus div.heading h1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  display: block;
+  margin: 0 auto;
+  background-color: #2552e3;
+}
+
+section.contactus div.heading p {
+  font-size: 18px;
+  margin-bottom: 35px;
+  line-height: 30px;
+  word-spacing: 5px;
+
+}
+
+section.contactus div.contact-action {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+section.contactus div.contact-action svg {
+  width: 300px;
+
+}
+
+section.contactus div.contact-action svg path {
+  fill: #2552e3;
+}
+
+section.contactus div.contact-action div.send-email {
+  display: flex;
+  align-items: center;
+}
+
+section.contactus div.contact-action a {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #1f3b95;
+  font-size: 19px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 15px;
+  transition: 0.3 ease;
+
+
+}
+
+section.contactus div.other-contacts {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+section.contactus div.other-contacts h3 {
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 25px;
+  position: relative;
+  font-family: "inter";
+}
+
+section.contactus div.other-contacts div.contactMedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+section.contactus div.other-contacts div.contactMedia a {
+
+  width: 50px;
+  height: 40px;
+  align-self: center;
+  padding: 55px 0px;
+
+}
+
+section.contactus div.other-contacts div.contactMedia a.facebook {
+  color: #3b5998;
+}
+
+section.contactus div.other-contacts div.contactMedia a.instagram {
+  color: #e1306c;
+}
+
+section.contactus div.other-contacts div.contactMedia a.tiktok {
+  color: #333;
+}
+
+section.contactus div.other-contacts div.contactMedia a.linked-in {
+  color: #1da1f2;
+}
+
+section.contactus div.other-contacts div.contactMedia a.twitter {
+  color: #0072b1;
+}
+
+
+
+
+footer {
+  display: flex;
+
+  background: linear-gradient(#BBD2C5, #536976, #292E49);
+
+}
+
+footer div.footer-regards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
 }
 
 div.footer-regards img {
   width: 150px;
   height: 150px;
+  align-self: center;
 }
+
 div.footer-navigation {
   display: flex;
   flex-direction: column;
   padding: 30px 10px;
   width: 33%;
   text-align: center;
+
 }
+
 div.footer-navigation a {
   text-decoration: none;
-  color: black;
+  color: #000;
   padding: 5px 10px;
 }
+
 footer div.contactMedia {
   display: flex;
   align-items: center;
-
+  justify-content: center;
   text-align: center;
   width: 33%;
 }
+
 footer div.contactMedia a {
   width: 50px;
   height: 40px;
@@ -151,15 +499,27 @@ footer div.contactMedia a {
 footer div.contactMedia a.facebook {
   color: #3b5998;
 }
+
 footer div.contactMedia a.instagram {
   color: #e1306c;
 }
+
 footer div.contactMedia a.tiktok {
   color: #333;
 }
+
 footer div.contactMedia a.linked-in {
   color: #1da1f2;
 }
+
 footer div.contactMedia a.twitter {
   color: #0072b1;
+}
+
+div.empty-section {
+  display: grid;
+  place-items: center;
+  min-height: 400px;
+  text-align: center;
+  font-size: xx-large;
 }

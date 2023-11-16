@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../Images/logo.png";
 export default function Header() {
   return (
@@ -6,13 +7,13 @@ export default function Header() {
         <div className="top-header">
           <img src={logo}></img>
           <div className="navigation">
-            <a href="">Home</a>
-            <a href="">About Us</a>
-            <a href="">Membership</a>
-            <a href="">Gallery</a>
-            <a href="">Projects</a>
-            <a href="">Blog</a>
-            <a href="">Contact us</a>
+            <Link to="/">Home</Link>
+            <Link to="/aboutus">About Us</Link>
+            <Link to="/membership">Membership</Link>
+            <Link to="/gallery">Gallery</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/contactus">Contact us</Link>
           </div>
         </div>
 
