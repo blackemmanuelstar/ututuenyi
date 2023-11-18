@@ -277,6 +277,10 @@ section.about div.about-body div.about-content .read-more:hover {
   }
 }
 
+section.members {
+  background-color: #f2f2f2;
+}
+
 section.members div.heading {
   width: 90%;
   display: flex;
