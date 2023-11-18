@@ -277,6 +277,41 @@ section.about div.about-body div.about-content .read-more:hover {
   }
 }
 
+section.members div.heading {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+
+section.members div.heading h1.members-heading {
+  font-size: 50px;
+  color: #000;
+  margin-bottom: 5px;
+  position: relative;
+  font-family: "inter";
+}
+
+section.members h1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  display: block;
+  margin: 0 auto;
+  background-color: #2552e3;
+}
+
+section.members p {
+  font-size: 18px;
+  margin-bottom: 35px;
+  line-height: 30px;
+  word-spacing: 5px;
+
+}
 
 
 div.members-container {

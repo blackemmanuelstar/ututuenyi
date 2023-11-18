@@ -33,11 +33,7 @@ function App() {
         path={"/membership"}
         element={
           <main>
-            <section className="members">
-              <Header />
-              <Members />
-              <Footer />
-            </section>
+            <Members />
           </main>
         }
       />

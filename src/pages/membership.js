@@ -6,6 +6,8 @@ import image5 from "../Images/MR OKEKE UGWA OMEBE.jpeg";
 import image6 from "../Images/MR unknown.jpeg";
 import image7 from "../Images/Madam Easter Ogba Okechukwu.jpeg";
 import image8 from "../Images/Mrs Nnenna David Antwi (AKA. Nelly Onyeike).jpeg";
+import Header from "./Header";
+import Footer from "./Footer";
 // import image9 from "../Images/";
 // import image10 from "../Images/MR unknown.jpeg";
 // import image11 from "../Images/MR unknown.jpeg";
@@ -61,7 +63,23 @@ const Members = () => {
     ));
   };
 
-  return <div className="members-container">{renderImages()}</div>;
+  return (
+    <>
+      <Header />
+      <section className="members">
+        <div className="heading">
+          <h1 className="members-heading">Members</h1>
+          <p className="members-message">
+            Meet the diverse and dynamic individuals who form the backbone of
+            our community, each contributing their skills and enthusiasm to our
+            shared vision.
+          </p>
+        </div>
+        <div className="members-container">{renderImages()}</div>
+        <Footer />
+      </section>
+    </>
+  );
 };
 
 export default Members;
