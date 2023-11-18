@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ututuenyi/static/css/main.93680095.css",
-    "main.js": "/ututuenyi/static/js/main.8ae5178d.js",
+    "main.css": "/ututuenyi/static/css/main.43bf844d.css",
+    "main.js": "/ututuenyi/static/js/main.629adeec.js",
     "static/js/787.4597491d.chunk.js": "/ututuenyi/static/js/787.4597491d.chunk.js",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/ututuenyi/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
     "static/media/Mrs Nnenna David Antwi (AKA. Nelly Onyeike).jpeg": "/ututuenyi/static/media/Mrs Nnenna David Antwi (AKA. Nelly Onyeike).c960ea3ed57bf505d13c.jpeg",
@@ -16,12 +16,12 @@
     "static/media/HON. ANYA EBIRI ANYA.jpeg": "/ututuenyi/static/media/HON. ANYA EBIRI ANYA.d76965b51dd3773b1e8c.jpeg",
     "static/media/MR unknown.jpeg": "/ututuenyi/static/media/MR unknown.2c89d6a35c8932e87b71.jpeg",
     "index.html": "/ututuenyi/index.html",
-    "main.93680095.css.map": "/ututuenyi/static/css/main.93680095.css.map",
-    "main.8ae5178d.js.map": "/ututuenyi/static/js/main.8ae5178d.js.map",
+    "main.43bf844d.css.map": "/ututuenyi/static/css/main.43bf844d.css.map",
+    "main.629adeec.js.map": "/ututuenyi/static/js/main.629adeec.js.map",
     "787.4597491d.chunk.js.map": "/ututuenyi/static/js/787.4597491d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93680095.css",
-    "static/js/main.8ae5178d.js"
+    "static/css/main.43bf844d.css",
+    "static/js/main.629adeec.js"
   ]
 }
