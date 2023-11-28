@@ -161,14 +161,21 @@ div.intro div.intro-speaker img.orji {
 
 div.after-intro {
   padding: 30px 30px;
-
+  flex: 1;
+  overflow: hidden;
+  background-color: #f2f2f2;
 }
 
 div.after-intro img.group-pic {
-  height: 500px;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: 0.5s ease;
 }
 
+div.after-intro:hover img.group-pic {
+  transform: scale(1.2);
+}
 
 section.about div.about-body {
   width: 90%;
@@ -299,6 +306,14 @@ section.about div.about-body div.about-content .read-more:hover {
     gap: 3px;
 
 
+  }
+
+  div.intro {
+    flex-direction: column;
+  }
+
+  div.intro p.welcome-message {
+    width: 80%;
   }
 
 
@@ -603,12 +618,17 @@ section.contactus div.whatsapp-numbers a {
     gap: 0px;
   }
 
+
   section.contactus div.other-contacts h3 {
     margin-bottom: 10px;
   }
 
   section.contactus div.other-contacts div.contactMedia {
     padding: 10px;
+  }
+
+  div.bottom-header div.donate {
+    margin: 10px 10px;
   }
 }
 
@@ -742,4 +762,27 @@ section>div.heading p {
   margin-bottom: 35px;
   line-height: 30px;
   word-spacing: 5px;
+}
+
+@media screen and (max-width: 360px) {
+  div.bottom-header div.donate {
+    margin: 10px 10px;
+  }
+
+  div.footer-regards {
+    width: 25%;
+  }
+
+  div.footer-regards img {
+    width: 100px;
+    height: 100px;
+  }
+
+  div.footer-navigation {
+    width: 28%;
+  }
+
+  footer div.contactMedia {
+    width: 44%;
+  }
 }
