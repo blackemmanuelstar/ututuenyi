@@ -16,7 +16,11 @@ export default function () {
         <Link to="/contactus">Contact us</Link>
       </div>
       <div class="contactMedia">
-        <a href="" className="facebook">
+        <a
+          href="https://www.facebook.com/profile.php?id=61551736841539"
+          className="facebook"
+          target="_blank"
+        >
           <i class="fa-brands fa-facebook-f"> </i>
         </a>
         <a href="" className="instagram">
@@ -31,13 +35,12 @@ export default function () {
         <a href="" className="linked-in">
           <i class="fa-brands fa-linkedin-in"></i>
         </a>
-        <a href="">
+        <a href="mailto:nkisiena@gmail.com">
           <i class="fa-solid fa-envelope"></i>
         </a>
-
-        <a href="">
-          <i class="fa-sharp fa-solid fa-phone"></i>
-        </a>
+        <Link to="/contactus#whatsapp-numbers" className="whatsapp">
+          <i class="fa-3x fa-brands fa-whatsapp"> </i>
+        </Link>
       </div>
     </footer>
   );

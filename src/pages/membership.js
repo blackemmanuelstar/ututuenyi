@@ -1,11 +1,15 @@
 import image1 from "../Images/MR. NGOYE ORJI KALU (NMEMME ATUEGWU).jpeg";
 import image2 from "../Images/HRH.EZE ODEGHE KALU ODEGHE (EZE IKEKWEGHI IMERI).jpeg";
 import image3 from "../Images/HON. ANYA EBIRI ANYA.jpeg";
-import image4 from "../Images/MR BARRATTS E ANYA.jpeg";
+import image4 from "../Images/Eme Okocha(Snr. Emomec).jpeg";
 import image5 from "../Images/MR OKEKE UGWA OMEBE.jpeg";
 import image6 from "../Images/MR unknown.jpeg";
 import image7 from "../Images/Madam Easter Ogba Okechukwu.jpeg";
 import image8 from "../Images/Mrs Nnenna David Antwi (AKA. Nelly Onyeike).jpeg";
+import image9 from "../Images/Madam Bouyant.jpeg";
+import image10 from "../Images/Madam Nnenne Okpara.jpeg";
+import image11 from "../Images/Mr David Onwuuka Oba (NISTEX).jpeg";
+import image12 from "../Images/MR BARRATTS E ANYA.jpeg";
 import Header from "./Header";
 import Footer from "./Footer";
 // import image9 from "../Images/";
@@ -24,6 +28,10 @@ const Members = () => {
     image6,
     image7,
     image8,
+    image9,
+    image10,
+    image11,
+    image12,
   ]; // Add all imported images here
 
   const imagesName = {
@@ -37,7 +45,7 @@ const Members = () => {
       name: "HON. ANYA EBIRI ANYA",
     },
     image4: {
-      name: "MR BARRATTS E ANYA",
+      name: "Mr Eme Okocha(Snr. Emomec)",
     },
     image5: {
       name: "MR OKEKE UGWA OMEBE",
@@ -50,6 +58,18 @@ const Members = () => {
     },
     image8: {
       name: "Mrs Nnenna David Antwi (AKA. Nelly Onyeike)",
+    },
+    image9: {
+      name: "Madam Bouyant",
+    },
+    image10: {
+      name: "Madam Nnenne Okpara",
+    },
+    image11: {
+      name: "Mr David Onwuuka Oba (NISTEX)",
+    },
+    image12: {
+      name: "MR BARRATTS E ANYA",
     },
   };
 

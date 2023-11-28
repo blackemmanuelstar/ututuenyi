@@ -19,7 +19,7 @@ export default function ContactUs() {
             appreciate your interest and can't wait to hear from you!
           </p>
         </div>
-        <div>
+        <div className="contact-ways">
           <div className="contact-action">
             <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
               <title />
@@ -31,14 +31,32 @@ export default function ContactUs() {
               </g>
             </svg>
             <div className="send-email">
-              <a href="mailto:example@example.com">Send an email</a>
+              <a href="mailto:nkisiena@gmail.com">Send an email</a>
             </div>
+          </div>
+          <div className="whatsapp-numbers" id="whatsapp-numbers">
+            <a href="https://wa.me/+2347026067212">
+              <i class="fa-3x fa-brands fa-whatsapp"> </i>
+              <p>+234 702 606 7212</p>
+            </a>
+            <a href="https://wa.me/+22890246984">
+              <i class="fa-3x fa-brands fa-whatsapp"></i>
+              <p>+228 90 24 69 84</p>
+            </a>
+            <a href="https://wa.me/+4915213509069">
+              <i class="fa-3x fa-brands fa-whatsapp"> </i>
+              <p>+49 1 521 350 9069</p>
+            </a>
           </div>
         </div>
         <div className="other-contacts">
           <h3>Social Media </h3>
           <div className="contactMedia">
-            <a href="" className="facebook">
+            <a
+              href="https://www.facebook.com/profile.php?id=61551736841539"
+              target="_blank"
+              className="facebook"
+            >
               <i class="fa-brands fa-facebook-f"> </i>
             </a>
             <a href="" className="instagram">
@@ -53,7 +71,7 @@ export default function ContactUs() {
             <a href="" className="linked-in">
               <i class="fa-brands fa-linkedin-in"></i>
             </a>
-            <a href="">
+            <a href="mailto:nkisiena@gmail.com">
               <i class="fa-solid fa-envelope"></i>
             </a>
 

@@ -9,6 +9,7 @@ import Members from "./pages/membership";
 import ContactUs from "./pages/contactus";
 import Blog from "./pages/blog";
 import Projects from "./pages/projects";
+import Gallery from "./pages/gallery";
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
         path={"/gallery"}
         element={
           <main>
-            <Header />
+            <Gallery />
           </main>
         }
       />

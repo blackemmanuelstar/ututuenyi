@@ -6,6 +6,14 @@ export default function Projects() {
     <>
       <Header />
       <section className="projects">
+        <div className="heading">
+          <h1>Projects</h1>
+          <p>
+            Explore the diversity of our endeavors and accomplishments on our
+            projects page, a testament to our collective dedication and
+            innovation.
+          </p>
+        </div>
         <div className="empty-section">
           <div>
             <p>NO PROJECTS YET.</p>
